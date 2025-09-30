@@ -18,7 +18,7 @@ library(TwoSampleMR)
 ##1.  Create exposure data
 #######################################################################################################################
 # call UKBB SNPs
-exposure_dat<- extract_instruments(outcomes= "met-d-Omega_3", clump = T)
+exposure_dat<- extract_instruments(outcomes= "met-d-Omega_3", clump = F)
 
 #exposure_dat<- extract_instruments(outcomes= "met-c-855", clump = F)
 
